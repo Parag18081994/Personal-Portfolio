@@ -6,7 +6,7 @@ const CallToAction = ({ text }) => {
     return (
         <div className="call-to-action">
             <span className="text">{text}</span>
-            <Arrow />
+            <Arrow/>
         </div>
     );
 };
