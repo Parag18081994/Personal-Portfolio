@@ -17,9 +17,9 @@ const Introcontent = () => {
                             <span className="icon">
                                 <img src={hand} />
                             </span>
-                            <span className="text">, I Am Parag Naik </span>
+                            <span className="text">, I Am</span>
                         </span>
-                        <span className="big-text">Java Developer</span>
+                        <span className="big-text">JS Dev Hindi</span>
                     </h1>
                     <p>
                         Awarded for my impeccable team management and project
