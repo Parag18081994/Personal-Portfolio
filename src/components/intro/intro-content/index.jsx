@@ -1,6 +1,10 @@
 import React from "react";
 import "./style.scss";
 import hand from "../../../images/hand.png";
+import CallToAction from "../../shared/CallToAction";
+import girl from "../../../images/girl.png"
+import { BsAwardFill } from "react-icons/bs";
+import {FaUser} from "react-icons/fa";
 
 const Introcontent = () => {
     return (
@@ -25,8 +29,27 @@ const Introcontent = () => {
                         requires me to travel to Australia for its
                         implementation and delivery.
                     </p>
+                    <CallToAction text="Contact me"/>
                 </div>
-                <div className="right-col"></div>
+                <div className="right-col">
+                    <img src={girl} alt="Parag Java" />
+
+                    <div className="highlights horizontal">
+                        <div className="icon">
+                            <BsAwardFill/>
+                        </div>
+                        <div className="text">Summit Award</div>
+                    </div>
+                    <div className="highlights verticle">
+                        <div className="icon">
+                            <FaUser/>
+                        </div>
+                        <div className="text">
+                            <span>4K+</span>
+                            Happy customer
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
