@@ -60,7 +60,8 @@
             .highlights{
                 position: absolute;
                 border-radius: 6px;
-                background:white;
+                //background:white;
+                @include glassmorphism-effect ;
                 .icon{
                     width: 55px;
                     height: 55px;
@@ -118,6 +119,16 @@
                     @include large-screen{
                         top: 85px;
                         right:-10px;
+                    }
+                    .text{
+                        padding: 0px 10px;
+                        @include typography(14px,400,18px);
+                        color: $black-light;
+                        margin-top: 10px;
+                        span{
+                            @include typography(18px,700,24px);
+                            display: block;
+                        }
                     }
 
                 }
